@@ -15,78 +15,43 @@
 
         <TextView
             android:id="@+id/my_apps_tv"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="20dp"
-            android:layout_marginTop="40dp"
-            android:text="@string/my_nanodegree_apps"
-            android:textColor="#000000"
-            android:textSize="24sp" />
+            style="@style/PortfolioTextView"
+            android:text="@string/my_nanodegree_apps" />
 
         <Button
             android:id="@+id/popular_movies_bn"
-            android:layout_width="220dp"
-            android:layout_height="wrap_content"
+            style="@style/BasicButtonView.Margin"
             android:layout_below="@id/my_apps_tv"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="8dp"
-            android:text="@string/popular_movies"
-            android:textAllCaps="true"
-            android:textSize="14dp" />
+            android:text="@string/popular_movies" />
 
         <Button
             android:id="@+id/stock_hawk_bn"
-            android:layout_width="220dp"
-            android:layout_height="wrap_content"
+            style="@style/BasicButtonView.Margin"
             android:layout_below="@id/popular_movies_bn"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="8dp"
-            android:text="@string/stock_hawk"
-            android:textAllCaps="true"
-            android:textSize="14dp" />
+            android:text="@string/stock_hawk" />
 
         <Button
             android:id="@+id/build_it_bigger_bn"
-            android:layout_width="220dp"
-            android:layout_height="wrap_content"
+            style="@style/BasicButtonView.Margin"
             android:layout_below="@id/stock_hawk_bn"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="8dp"
-            android:text="@string/build_it_bigger"
-            android:textAllCaps="true"
-            android:textSize="14dp" />
+            android:text="@string/build_it_bigger" />
 
         <Button
             android:id="@+id/make_your_app_material_bn"
-            android:layout_width="220dp"
-            android:layout_height="wrap_content"
+            style="@style/BasicButtonView.Margin"
             android:layout_below="@id/build_it_bigger_bn"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="8dp"
-            android:text="@string/make_your_app_material"
-            android:textAllCaps="true"
-            android:textSize="14dp" />
+            android:text="@string/make_your_app_material" />
 
         <Button
             android:id="@+id/go_ubiquitous_bn"
-            android:layout_width="220dp"
-            android:layout_height="wrap_content"
+            style="@style/BasicButtonView.Margin"
             android:layout_below="@id/make_your_app_material_bn"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="8dp"
-            android:text="@string/go_ubiquitous"
-            android:textAllCaps="true"
-            android:textSize="14dp" />
+            android:text="@string/go_ubiquitous" />
 
         <Button
             android:id="@+id/capstone_bn"
-            android:layout_width="220dp"
-            android:layout_height="wrap_content"
+            style="@style/BasicButtonView"
             android:layout_below="@id/go_ubiquitous_bn"
-            android:layout_centerHorizontal="true"
-            android:text="@string/capstone"
-            android:textAllCaps="true"
-            android:textSize="14dp" />
+            android:text="@string/capstone" />
     </RelativeLayout>
 </ScrollView>

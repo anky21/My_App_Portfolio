@@ -2,4 +2,15 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Dimensions related to Buttons -->
+    <dimen name="button_width">220dp</dimen>
+    <dimen name="button_margin">8dp</dimen>
+    <dimen name="button_text_size">14sp</dimen>
+
+    <!-- Portfolio Text View -->
+    <dimen name="text_marginbottom">20dp</dimen>
+    <dimen name="text_margintop">40dp</dimen>
+    <dimen name="portfolio_text_size">24sp</dimen>
+
 </resources>

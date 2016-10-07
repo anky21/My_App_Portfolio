@@ -9,4 +9,28 @@
         <item name="android:colorButtonNormal">@color/colorPrimary</item>
     </style>
 
+    <!-- Basic Button View Style -->
+    <style name="BasicButtonView">
+        <item name="android:layout_width">@dimen/button_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+    </style>
+
+    <!-- Button View with Margin Style -->
+    <style name="BasicButtonView.Margin">
+        <item name="android:layout_marginBottom">@dimen/button_margin</item>
+    </style>
+    
+    <!-- Portfolio Text View Style -->
+    <style name="PortfolioTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:layout_marginBottom">@dimen/text_marginbottom</item>
+        <item name="android:layout_marginTop">@dimen/text_margintop</item>
+        <item name="android:textSize">@dimen/portfolio_text_size</item>
+    </style>
+
 </resources>
